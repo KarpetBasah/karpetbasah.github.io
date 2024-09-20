@@ -93,17 +93,34 @@ body {
 
 .footer i {
     font-style: normal;
+    font-weight: 300;
 }
 
 @media (max-width: 500px) {
     .footer {
         font-size: 5pt;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
     }
 }
 
 @media (min-width: 501px) and (max-width: 769px) {
     .footer {
         font-size: 7pt;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
     }
 }
 
