@@ -3,7 +3,240 @@
 
 <head>
     <title>Diki | Personal Web</title>
+<!doctype html>
+<html lang="en">
 
+<head>
+    <title>Diki | Personal Web</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="images/Web Icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="https://dikiii.github.io"><bold>D<span class="titik-logo">.</span></bold></a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Sidebar -->
+                <div class="offcanvas offcanvas-end text-white border-bottom" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="#home" onclick="scrollToSection(event, '#home')">Home</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#about" onclick="scrollToSection(event, '#about')">About Me</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#projects" onclick="scrollToSection(event, '#projects')">Projects</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#contacts" onclick="scrollToSection(event, '#contacts')">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container welcome-screen">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <h1 class="display-4 fw-bold">Halo<span class="teks-merah">!</span></h1>
+                        <p>Namaku Diki, aku seorang mahasiswa Ilmu Komputer, detail lebih lengkap ada di bawah</p>
+                        <button class="btn btn-outline-light" onclick="window.scrollBy(0, 500);">
+                            <i class="bi bi-arrow-down"></i> Sleding ke Bawah
+                        </button>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="images/Rainbow Dash Hi.png" alt="Hai!" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container-md py-4 about">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 text-center">
+                        <h2 class="mb-4 fw-bold">About <span class="teks-merah">Me</span></h2>
+                        <p>Seorang Mahasiswa jurusan Ilmu Komputer tahun kedua dari Universitas
+                            Lambung Mangkurat. Mampu bekerja dalam tim maupun individu
+                            serta memiliki ketertarikan di bidang Teknologi Informasi
+                            dan entah mengapa memiliki ketertarikan sama kuda poni (jangan dianggap serius).
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <h5 class="mb-4 fw-bold">Bahasa yang dikuasai</h5>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-2">
+                        <div
+                            class="card text-center h-100 bg-transparent d-flex align-items-center justify-content-center">
+                            <img src="images/Java logo.png" class="card-img-top" style="width: 150px;" alt="Java Logo"
+                                title="Java">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div
+                            class="card text-center h-100 bg-transparent d-flex align-items-center justify-content-center">
+                            <img src="images/Py logo.png" class="card-img-top" style="width: 120px;" alt="Python Logo"
+                                title="Python">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div
+                            class="card text-center h-100 bg-transparent d-flex align-items-center justify-content-center">
+                            <img src="images/Html logo.png" class="card-img-top" style="width: 100px;" alt="HTML Logo"
+                                title="HTML">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div
+                            class="card text-center h-100 bg-transparent d-flex align-items-center justify-content-center">
+                            <img src="images/Css logo.png" class="card-img-top" style="width: 155px;" alt="CSS Logo"
+                                title="CSS">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div
+                            class="card text-center h-100 bg-transparent d-flex align-items-center justify-content-center">
+                            <img src="images/Php logo.png" class="card-img-top" style="width: 130px;" alt="PHP Logo"
+                                title="PHP">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div
+                            class="card text-center h-100 bg-transparent d-flex align-items-center justify-content-center">
+                            <img src="images/Mysql logo.png" class="card-img-top" style="width: 100px;" alt="MySQL Logo"
+                                title="MySQL">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container-sm projects">
+                <h1 class="fw-bold mb-4">Projects<span class="teks-merah">.</span></h1>
+                <div class="proj-div row align-items-center justify-content-center">
+                    <div class="proj-content-text col-md-6">
+                        <h1 class="fw-bold">404 Not Found</h1>
+                        <p>Bagian ini sedang dalam pengembangan.</p>
+                    </div>
+                    <div class="proj-content-img col-md-6 align-items-center">
+                        <img src="images/404.png" class="proj-img img-fluid" alt="404">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <div class="container contact">
+                <h1 class="fw-bold mt-4">Contacts<span class="teks-merah">.</span></h1>
+                <div class="container-md contact">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-2">
+                                <div
+                                    class="card text-center bg-transparent d-flex align-items-center justify-content-center">
+                                    <a href="https://www.instagram.com/apx_dcky" target="_blank"
+                                        style="text-decoration: none; color: inherit;">
+                                        <img src="images/Instagram logo.png" class="card-img-top" style="width: 80px;"
+                                            alt="Instagram Logo" title="">
+                                        <p>Instagram</p>
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div
+                                class="card text-center bg-transparent d-flex align-items-center justify-content-center">
+                                <a href="https://x.com/Nightmarity_" target="_blank"
+                                    style="text-decoration: none; color: inherit;">
+                                    <img src="images/x Logo.png" class="card-img-top" style="width: 80px;" alt="X Logo"
+                                        title="">
+                                    <p>X</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div
+                                class="card text-center bg-transparent d-flex align-items-center justify-content-center">
+                                <a href="https://github.com/KarpetBasah" target="_blank"
+                                    style="text-decoration: none; color: inherit;">
+                                    <img src="images/Github Logo.png" class="card-img-top" style="width: 80px;"
+                                        alt="Github Logo" title="">
+                                    <p>Github</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card text-center bg-transparent d-flex align-items-center justify-content-center">
+                                <a href="https://www.facebook.com/Nightmarity/" target="_blank"
+                                    style="text-decoration: none; color: inherit;">
+                                    <img src="images/Facebook Logo.png" class="card-img-top" style="width: 80px;"
+                                        alt="Facebook Logo" title="">
+                                    <p>Facebook</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quote">
+        <hr class="pembatas">
+
+        <div class="container-sm mt-4">
+            <h4 class="fw-bold text-center">"Teruslah berkembang menuju jalan kesuksesan"</h4>
+        </div>
+        <div class="container-fluid p-0">
+            <img src="images/Naik kapal.png" class="img-fluid w-100" alt="Mane Six">
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <i>
+                MY LITTLE PONY and all related characters are trademarks of Hasbro. I am no way affiliated with
+                or endorsed by Hasbro. <br>
+                Copyright &copy; Personal Website. This website was developed by Diki.
+            </i>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="bootstrap.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
