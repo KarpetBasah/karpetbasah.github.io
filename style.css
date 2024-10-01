@@ -127,3 +127,25 @@ body {
 .nav-link.active {
     font-weight: bold;
 }
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.col-md-2 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.col-md-2.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
