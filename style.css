@@ -96,9 +96,9 @@ body {
     font-weight: 300;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 374px) {
     .footer {
-        font-size: 5pt;
+        font-size: 0.38rem;
         font-weight: 300;
     }
     .navbar-brand {
@@ -110,9 +110,93 @@ body {
     }
 }
 
-@media (min-width: 501px) and (max-width: 769px) {
+@media (min-width: 375px) and (max-width: 394px) {
     .footer {
-        font-size: 7pt;
+        font-size: 0.40rem;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
+    }
+}
+
+@media (min-width: 395px) and (max-width: 424px) {
+    .footer {
+        font-size: 0.42rem;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 474px) {
+    .footer {
+        font-size: 0.45rem;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 569px) {
+    .footer {
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 644px) {
+    .footer {
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
+    }
+}
+
+@media (min-width: 645px) and (max-width: 739px) {
+    .footer {
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    body {
+        padding-top: 85px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 780px) {
+    .footer {
+        font-size: 0.8rem;
         font-weight: 300;
     }
     .navbar-brand {
